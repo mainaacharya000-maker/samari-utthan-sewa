@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Programs | Samari Utthan Sewa</title>
+
+    <meta name="description" content="Explore the programs of Samari Utthan Sewa supporting education, healthcare, equality and community development.">
+
+    <meta property="og:title" content="Programs | Samari Utthan Sewa">
+    <meta property="og:description" content="Explore the programs of Samari Utthan Sewa supporting education, healthcare, equlity and community development.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+    
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Samari Utthan Sewa
+            </a>
+
+            <button id="menuToggle"
+                    class="menu-toggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a>
+                </li>
+
+                <li><a href="about.html">About</a>
+                </li>
+
+                <li><a href="programs.html">Programs</a>
+                </li>
+
+                <li><a href="projects.html">Projects</a>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a>
+                </li>
+
+                <li><a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+            <button is="darkModeButton">🌙 Dark Mode</button>
+
+            <a href="#donate" class="donate-button">
+                Donate
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <section class="page-header">
+
+        <h1>Our Programs</h1>
+
+        <p>
+            Creating opportunities and strengthening communities.
+        </p>
+
+    </section>
+
+
+
+    <section class="programs">
+
+        <div class="program-container">
+
+
+            <div class="program-card" data-program="Education">
+
+               <div class="program-icon">📚</div>
+
+               <h3>Education</h3>
+
+               <p>
+                  Supporting children and young people
+                  through education and learning opportunities.
+               </p>
+
+            </div>
+
+
+        <div class="program-card">
+
+            <div class="program-icon">❤️</div>
+
+            <h3>Healthcare</h3>
+
+            <p>
+                Promoting healthcare awareness and
+                improving access to essential services.
+            </p>
+
+        </div>
+
+
+        <div class="program-card">
+
+            <div class="program-icon">👩‍👧</div>
+
+            <h3>Women & Children</h3>
+
+            <p>
+                Supporting the rights, safety and
+                empowerment of women and children.
+            </p>
+
+        </div>
+
+
+        <div class="program-card">
+
+            <div class="program-icon">🌱</div>
+
+            <h3>Environment</h3>
+
+            <p>
+                Promoting environmental awareness and
+                sustainable community development.
+            </p>
+
+        </div>
+
+
+
+     </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 Samari Utthan Sewa. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+
+   <div id="programModal" class="program-modal">
+
+      <div class="program-modal-content">
+
+        <button id="closeProgramModal" class="close-modal">&times;</button>
+
+        <h2 id="modalProgramName"></h2>
+
+        <p id="modalProgramDescription"></p>
+
+      </div>
+
+   </div>
+
+   <script src="script.js"></script>
+
+</body>
+
+</html>
